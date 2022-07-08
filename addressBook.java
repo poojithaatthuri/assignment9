@@ -1,6 +1,8 @@
 package assignment9;
 import java.util.Scanner;
 public class addressBook {
+    public Contacts[] contactsArrayList;
+
     public static void main(String args[]) {
 
         Scanner scan = new Scanner(System.in);
@@ -36,5 +38,11 @@ public class addressBook {
 
         }
 
+    }
+
+    public void addContact() {
+    }
+
+    public void editContacts() {
     }
 }
